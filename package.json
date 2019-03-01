@@ -5,9 +5,12 @@
     "testrpc-sc": "cli.js"
   },
   "files": [
-    "./"
+    "args.js",
+    "cli.js",
+    "lib.js",
+    "package.json"
   ],
-  "main": "./build/ganache-core.node.cli.js",
+  "main": "cli.js",
   "scripts": {
     "start": "node cli.js",
     "build": "webpack-cli --config ./webpack/webpack.node.config.js",
