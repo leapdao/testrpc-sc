@@ -4,10 +4,6 @@
   "bin": {
     "testrpc-sc": "cli.js"
   },
-  "main": "./build/lib.node.js",
-  "directories": {
-    "lib": "./lib"
-  },
   "main": "./build/ganache-core.node.cli.js",
   "scripts": {
     "start": "node cli.js",
@@ -26,7 +22,7 @@
     "yargs"
   ],
   "devDependencies": {
-    "ganache-core": "https://github.com/sc-forks/ganache-core-sc.git#1d13e214de1966c3634f845a48134e79dab6c269",
+    "ganache-core": "https://github.com/leapdao/ganache-core-sc.git#master",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "on-build-webpack": "^0.1.0",
